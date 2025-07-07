@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c90ecf332cfc34438f5f68aa52c422d, type: 3}
+  m_Name: MotorManual
+  m_EditorClassIdentifier: 
+  machineName: Motor
+  steps:
+  - step: 1
+    title: Disconnect Power
+    instruction: Turn off main power and verify.
+    highlight: motor_power
+    tool: Multimeter
+    warning: Double-check no voltage.
+  - step: 2
+    title: Open Housing
+    instruction: Unscrew the motor housing to access internal components.
+    highlight: motor_housing
+    tool: Screwdriver
+    warning: Avoid damaging internal wires.
+  - step: 3
+    title: Inspect Brushes
+    instruction: Examine the brushes for wear and carbon residue.
+    highlight: motor_brushes
+    tool: None
+    warning: Wear gloves to avoid contamination.
+  - step: 4
+    title: Clean Interior
+    instruction: Use an air blower to remove dust and debris.
+    highlight: motor_inside
+    tool: Air Blower
+    warning: Wear eye protection.
+  - step: 5
+    title: Reassemble Motor
+    instruction: Close housing and tighten all screws. Restore power.
+    highlight: motor_housing
+    tool: Screwdriver
+    warning: Ensure all screws are tight and secure.

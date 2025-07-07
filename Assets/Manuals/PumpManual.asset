@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c90ecf332cfc34438f5f68aa52c422d, type: 3}
+  m_Name: PumpManual
+  m_EditorClassIdentifier: 
+  machineName: Pump
+  steps:
+  - step: 1
+    title: Isolate Pump
+    instruction: Close the inlet and outlet valves to isolate the pump.
+    highlight: pump_valve
+    tool: Wrench
+    warning: Ensure the system is depressurized.
+  - step: 2
+    title: Drain Fluid
+    instruction: Open the drain plug to release fluid.
+    highlight: pump_drain
+    tool: Spanner
+    warning: Wear gloves to avoid contact with chemicals.
+  - step: 3
+    title: Remove Cover
+    instruction: Unscrew bolts and lift the pump cover.
+    highlight: pump_cover
+    tool: Wrench
+    warning: Support the cover during removal.
+  - step: 4
+    title: Replace Gasket
+    instruction: Remove and replace the pump gasket.
+    highlight: pump_gasket
+    tool: Pick Tool
+    warning: Ensure no debris is left behind.
+  - step: 5
+    title: Reassemble Pump
+    instruction: Place cover and tighten bolts evenly.
+    highlight: pump_cover
+    tool: Wrench
+    warning: Check for leaks after reassembly

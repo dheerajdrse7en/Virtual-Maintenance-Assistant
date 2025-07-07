@@ -1,0 +1,88 @@
+{
+  "data": {
+    "Pump": [
+      {
+        "step": 1,
+        "title": "Isolate Pump",
+        "instruction": "Close the inlet and outlet valves to isolate the pump.",
+        "highlight": "pump_valve",
+        "tool": "Wrench",
+        "warning": "Ensure the system is depressurized."
+      },
+      {
+        "step": 2,
+        "title": "Drain Fluid",
+        "instruction": "Open the drain plug to release fluid.",
+        "highlight": "pump_drain",
+        "tool": "Spanner",
+        "warning": "Wear gloves to avoid contact with chemicals."
+      },
+      {
+        "step": 3,
+        "title": "Remove Cover",
+        "instruction": "Unscrew bolts and lift the pump cover.",
+        "highlight": "pump_cover",
+        "tool": "Wrench",
+        "warning": "Support the cover during removal."
+      },
+      {
+        "step": 4,
+        "title": "Replace Gasket",
+        "instruction": "Remove and replace the pump gasket.",
+        "highlight": "pump_gasket",
+        "tool": "Pick Tool",
+        "warning": "Ensure no debris is left behind."
+      },
+      {
+        "step": 5,
+        "title": "Reassemble",
+        "instruction": "Place cover and tighten bolts evenly.",
+        "highlight": "pump_cover",
+        "tool": "Wrench",
+        "warning": "Check for leaks after reassembly."
+      }
+    ],
+    "Motor": [
+      {
+        "step": 1,
+        "title": "Disconnect Power",
+        "instruction": "Shut off and verify motor power is off.",
+        "highlight": "motor_power",
+        "tool": "Multimeter",
+        "warning": "Double-check power is OFF."
+      },
+      {
+        "step": 2,
+        "title": "Open Housing",
+        "instruction": "Unscrew housing to access motor internals.",
+        "highlight": "motor_housing",
+        "tool": "Screwdriver",
+        "warning": "Avoid damaging internal wiring."
+      },
+      {
+        "step": 3,
+        "title": "Inspect Brushes",
+        "instruction": "Examine motor brushes for wear.",
+        "highlight": "motor_brushes",
+        "tool": "None",
+        "warning": "Handle with clean gloves."
+      },
+      {
+        "step": 4,
+        "title": "Clean Interior",
+        "instruction": "Use air blower to clean motor interior.",
+        "highlight": "motor_inside",
+        "tool": "Air Blower",
+        "warning": "Wear eye protection."
+      },
+      {
+        "step": 5,
+        "title": "Reassemble",
+        "instruction": "Close motor housing and restore power.",
+        "highlight": "motor_housing",
+        "tool": "Screwdriver",
+        "warning": "Ensure screws are fully tightened."
+      }
+    ]
+  }
+}
